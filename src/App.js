@@ -4,7 +4,7 @@ import sanya from "./sanya.jpeg";
 
 function App() {
   return (
-    <div className="p-8">
+    <div className="px-8 py-12 max-w-md mx-auto">
       <img className="h-10" src={logo} alt="" />
       <img className="mt-6 rounded-lg shadow-xl" src={sanya} alt="" />
       <h1 className="mt-6 text-2xl font-bold text-gray-900">
